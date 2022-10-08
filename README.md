@@ -1,2 +1,2 @@
-# Connect5
+# ConnectFive
 Javascript Project with NodeJS and Socket.io
