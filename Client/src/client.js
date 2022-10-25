@@ -1,3 +1,4 @@
+// For logging events
 const log = (text) => {
     const parent = document.querySelector('#events')
     const el = document.createElement('li');
@@ -7,12 +8,15 @@ const log = (text) => {
     parent.scrollTop = parent.scrollHeight;
 };
 
+// Emitting message texts from client side to server
 const onChatSubmitted = (sock) => (e) => {
     e.preventDefault();
 
     const input = document.querySelector('#chat');
     const text = input.value;
     input.value = '';
+
+    // Emit the text to server as message
     sock.emit('message', text);
 };
 
