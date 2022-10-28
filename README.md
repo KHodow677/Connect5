@@ -5,24 +5,42 @@ A javascript browser-based multiplayer game using NodeJS, Express, and Socket.io
 Socket.io, Express, Nodemon
 
 # How to Run
-In command line enter server folder using
+In command line navigate to project folder and enter server folder using
 ```
 cd server
 ```
+Then run command to host server
+```
+npm run dev
+```
+Wait for the line,
+```
+server is ready
+```
+On any device on the same network type in browser the ip address of the host with the port number 8080 by default 
+Example:
+```
+100.65.98.25:8080
+```
+One can find their IPv4 address by typing in command line
+```
+ipconfig
+```
 
-Or run Sodoku.py (if python 3 and pygame installed)  
-  
-Press R to clear the board  
-Press D to create new problem  
-Click square and enter correct number to fill it  
-Press ENTER to solve board algorithmically  
+# How to Play
+When your turn, click any box on the board to fill it 
+Once someone connects 5 boxes horizontally, vertically, or diagonally, the board resets 
+Type in chat and press say or hit ENTER to chat with other players 
 
 # ScreenShots
-Unsolved Board:  
-![alt text](https://github.com/KHodow677/SodokuSolver/blob/main/Assets/Screenshots/SodokuEmpty.PNG?raw=true)
+Empty Board:  
+![alt text](https://github.com/KHodow677/ConnectFive/blob/main/Screenshots/EmptyPage.PNG?raw=true)
 
-Solved Board:  
-![alt text](https://github.com/KHodow677/SodokuSolver/blob/main/Assets/Screenshots/SodokuFull.PNG?raw=true)
+Gameplay:  
+![alt text](https://github.com/KHodow677/ConnectFive/blob/main/Screenshots/FullPage.PNG?raw=true)
+
+Chat Page:  
+![alt text](https://github.com/KHodow677/ConnectFive/blob/main/Screenshots/ChatPage.PNG?raw=true)
 
 # License Info
 This is free and unencumbered software released into the public domain.
