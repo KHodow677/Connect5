@@ -37,7 +37,7 @@ Empty Board:
 ![alt text](https://github.com/KHodow677/ConnectFive/blob/main/Screenshots/EmptyPage.PNG?raw=true)
 
 Gameplay:  
-![alt text](https://github.com/KHodow677/ConnectFive/blob/main/Screenshots/FullPage.PNG?raw=true)
+![alt text](https://github.com/KHodow677/ConnectFive/blob/main/Screenshots/FilledPage.PNG?raw=true)
 
 Chat Page:  
 ![alt text](https://github.com/KHodow677/ConnectFive/blob/main/Screenshots/ChatPage.PNG?raw=true)
