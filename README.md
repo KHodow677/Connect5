@@ -17,7 +17,7 @@ Wait for the line,
 ```
 server is ready
 ```
-On any device on the same network type in browser the ip address of the host with the port number 8080 by default 
+On any device on the same network type in browser the ip address of the host with the port number 8080 by default  
 Example:
 ```
 100.65.98.25:8080
@@ -28,9 +28,9 @@ ipconfig
 ```
 
 # How to Play
-When your turn, click any box on the board to fill it 
-Once someone connects 5 boxes horizontally, vertically, or diagonally, the board resets 
-Type in chat and press say or hit ENTER to chat with other players 
+When your turn, click any box on the board to fill it  
+Once someone connects 5 boxes horizontally, vertically, or diagonally, the board resets  
+Type in chat and press say or hit ENTER to chat with other players  
 
 # ScreenShots
 Empty Board:  
